@@ -137,7 +137,7 @@
 "过滤词": "51.la#cnzz.com#baidu.com#bilibili.com",
 
 "列表起始页": "1",
-"列表分类": "电视剧$/index.php/vod/show/id/2/page/#电影$/index.php/vod/show/id/1/page#动漫$/index.php/vod/show/id/4/page#短剧$/index.php/vod/show/id/5/page",
+"列表分类": "电视剧$/index.php/vod/show/id/2/page/#电影$/index.php/vod/show/id/1/page/#动漫$/index.php/vod/show/id/4/page/#短剧$/index.php/vod/show/id/5/page/",
 "列表后缀": ".html",
 
 "列表二次截取": "class=\"module-items$$id=\"page",
