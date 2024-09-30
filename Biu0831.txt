@@ -8,7 +8,19 @@
 	{"key":"直播","title":"网络电视","pic":"https://pic.imgdb.cn/item/641d493aa682492fcc6cd12b.png"},
 	{"key": "推送","title": "播放链接","pic": "https://pic.imgdb.cn/item/641d4942a682492fcc6cdf6e.png"}
 ],
-
+"去广告规则":[
+{"名字":"量子",
+"寻找词":"vip.lz#hd.lz",
+"正则规则": [
+                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+                "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
+            ]
+},
+{"名字":"非凡",
+"寻找词":"vip.ffzy#hd.ffzy",
+"正则规则":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY"]
+}
+],
 //填写APP接口，支持以下5种接口格式。
 "zhuyejiekou": [
 {"name":"袋鼠","url":"http://app.daishu.one/qingdoujiekou.php/v1.vod"},
