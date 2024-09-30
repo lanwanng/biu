@@ -1,13 +1,12 @@
 //首页的栏目可以自己设置标题名称和图片，key不用改动，是列表页的识别标志，每个栏目的顺序也可以随意排序。
-{"Home": [
-{"key":"采集","title":"采集","pic":"https://vkceyugu.cdn.bspapp.com/VKCEYUGU-01822de6-ea20-4087-9035-2a71cdc1f496/dc02b12d-8a4f-432a-a5b2-16de5fae9b59.jpg"},
-{"key":"网页","title":"网页","pic":"https://vkceyugu.cdn.bspapp.com/VKCEYUGU-01822de6-ea20-4087-9035-2a71cdc1f496/1197ea6c-31a1-4795-af68-4fb68d617f99.jpg"},
-{"key":"APP","title":"APP","pic":"https://vkceyugu.cdn.bspapp.com/VKCEYUGU-01822de6-ea20-4087-9035-2a71cdc1f496/a7b2843d-141e-4cff-bfe9-a0704ddd46d3.jpg"},
-{"key":"直播","title":"直播","pic":"https://vkceyugu.cdn.bspapp.com/VKCEYUGU-01822de6-ea20-4087-9035-2a71cdc1f496/c8009136-99c3-4a68-8d33-fedecaa36cb3.jpg"},
-{"key":"历史","title":"历史记录","pic":"https://raw.iqiq.io/tianiue/MovieTV/master/tstp/05.jpg"},
-{"key":"收藏","title":"我的收藏","pic":"https://raw.iqiq.io/tianiue/MovieTV/master/tstp/06.jpg"},
-{"key":"推送","title":"远程推送","pic":"https://raw.iqiq.io/tianiue/MovieTV/master/tstp/07.jpg"},
-{"key":"待添加","title":"待添加","pic":"https://raw.iqiq.io/tianiue/MovieTV/master/tstp/08.jpg"}
+{"Home": 
+  {"key":"网页","title":"影视网站","pic":"https://pic.imgdb.cn/item/641d4942a682492fcc6cdfab.png"},
+	{"key":"收藏","title":"我的收藏","pic":"https://pic.imgdb.cn/item/641d4939a682492fcc6cd0ef.png"},
+	{"key":"APP","title":"APP接口","pic":"https://pic.imgdb.cn/item/641d4942a682492fcc6cdecc.png"},
+	{"key":"采集","title":"采集资源","pic":"https://pic.imgdb.cn/item/641d4942a682492fcc6cdfde.png"},
+	{"key":"历史","title":"观看记录","pic":"https://pic.imgdb.cn/item/641d51d6a682492fcc7ab0ce.png"},
+	{"key":"直播","title":"网络电视","pic":"https://pic.imgdb.cn/item/641d493aa682492fcc6cd12b.png"},
+	{"key": "推送","title": "播放链接","pic": "https://pic.imgdb.cn/item/641d4942a682492fcc6cdf6e.png"}
 ],
 
 //填写APP接口，支持以下5种接口格式。
