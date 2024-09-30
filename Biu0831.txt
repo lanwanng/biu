@@ -1,6 +1,6 @@
 //首页的栏目可以自己设置标题名称和图片，key不用改动，是列表页的识别标志，每个栏目的顺序也可以随意排序。
-{"Home": 
-  {"key":"网页","title":"影视网站","pic":"https://pic.imgdb.cn/item/641d4942a682492fcc6cdfab.png"},
+{"Home": [
+        {"key":"网页","title":"影视网站","pic":"https://pic.imgdb.cn/item/641d4942a682492fcc6cdfab.png"},
 	{"key":"收藏","title":"我的收藏","pic":"https://pic.imgdb.cn/item/641d4939a682492fcc6cd0ef.png"},
 	{"key":"APP","title":"APP接口","pic":"https://pic.imgdb.cn/item/641d4942a682492fcc6cdecc.png"},
 	{"key":"采集","title":"采集资源","pic":"https://pic.imgdb.cn/item/641d4942a682492fcc6cdfde.png"},
