@@ -112,7 +112,7 @@
 "bflianjieqian": "href=\"",
 "bflianjiehou": "\""},
 
-{"网站名字": "私人影院",
+{"网站名字": "小目标",
 "网站地址": "https://tv.xmb.app",
 "访问请求ua": "Mozilla/5.0 (linux; u; android11; zh-cn; v1816a build/pkq1.180819.001) applewebkit/537.36 (khtml, like gecko) version/4.0 chrome/57.0.2987.108 quark/4.2.1.138 mobile safari/537.36",
 "访问请求cookie": "空",
@@ -128,7 +128,7 @@
 "列表分类": "电视剧$/index.php/vod/show/id/2/page/#电影$/index.php/vod/show/id/1/page#动漫$/index.php/vod/show/id/4/page#短剧$/index.php/vod/show/id/5/page",
 "列表后缀": ".html",
 
-"列表二次截取": "class=\"module-items\$$id=\"page",
+"列表二次截取": "class=\"module-items$$id=\"page",
 "列表截取数组": "<a$$</a>",
 "列表图片前缀": "空",
 "列表图片": "data-original=\"$$\"",
