@@ -152,8 +152,6 @@
 "搜索标题": "alt=\"$$\"",
 "搜索副标题": "<div class=\"module-item-note\">$$</div>",
 "搜索链接": "href=\"$$\"",
-"搜索链接前缀": "空",
-"搜索链接后缀": "空",
 
 //0：不启用，1：启用
 "启用线路名": "1",                                           
@@ -178,18 +176,271 @@
 "播放剧集链接前缀": "空",
 "播放剧集链接后缀": "空",
 
-
 //0：否，1：是
 "启用嗅探截取": "0",
 "嗅探请求头": "User-Agent$Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1",//User-Agent$123#Referer$123
 "播放地址二次截取": "var player_$$</div>",
-"播放地址截取": "\"url\":\"$$\"",
-"嗅探播放地址前缀": "空",//加前缀的话，截取的地址就会加上前缀再进行一次嗅探。
-"是否base64解码": "0",
-"是否url解码": "0",
-"官源是否走解析": "0",
+"播放地址截取": "\"url\":\"$$\""},
 
-//0：不跳转，1：跳转
-"播放页跳转看图": "0"}
+{"网站名字": "爱影视",
+"网站地址": "https://www.aiyingshis.com",
+"访问请求ua": "Mozilla/5.0 (linux; u; android11; zh-cn; v1816a build/pkq1.180819.001) applewebkit/537.36 (khtml, like gecko) version/4.0 chrome/57.0.2987.108 quark/4.2.1.138 mobile safari/537.36",
+"访问请求cookie": "空",
+"访问请求referer": "",
+"播放请求头": "User-Agent$123",
+"图片请求头": "空",
+"网页编码": "utf-8",
+
+"嗅探词": "m3u8?#.m3u8#.mp4#.flv#.mp3#.m4a",
+"过滤词": "51.la#cnzz.com#baidu.com#bilibili.com",
+
+"列表起始页": "1",
+"列表分类": "电视剧$/vodshow/id/2/page/#电影$/vodshow/id/1/page/#动漫$/vodshow/id/4/page/#蓝光$/vodshow/id/37/page/",
+"列表后缀": ".html",
+
+"列表二次截取": "class=\"module-items$$id=\"page",
+"列表截取数组": "class=\"module-item-pic$$</div>",
+"列表图片前缀": "空",
+"列表图片": "data-src=\"$$\"",
+"列表标题": "title=\"$$\"",
+"列表副标题": "",
+"列表链接": "href=\"$$\"",
+"列表链接前缀": "",
+"列表链接后缀": "",
+
+//0：get方式，1：post方式，注意：如果用post方式，【搜索模式】要填：1
+"搜索请求方式": "0",
+"搜索模式": "1",
+"搜索前": "/vodsearch.html?wd=",
+"搜索后": "",
+"搜索连接后缀": "/vodsearch.html?wd=",
+"搜索带翻页模式": "https://tv.xmb.app/index.php/vod/search/page/翻页/wd/搜索词.html",
+"搜索二次截取": "空",
+"搜索截取数组": "<div class=\"module-search-item\">$$<div class=\"video-info-aux\">",
+"搜索图片前缀": "空",
+"搜索图片": "data-src=\"$$\"",
+"搜索标题": "title=\"立刻播放$$\"",
+"搜索副标题": "<div class=\"video-info-header\">$$</a>",
+"搜索链接": "class=\"video-serial\" href=\"$$\"",
+"搜索链接前缀": "空",
+"搜索链接后缀": "空",
+
+//0：不启用，1：启用
+"启用线路名": "1",                                           
+"线路名二次截取": "",
+"线路名截取数组": "class=\"module-tab-item tab-item$$</div>",
+"线路名标题": "<span>$$</span>",
+
+"播放页状态": "连载：$$</div>",
+"播放页导演": "导演：$$</div>",
+"播放页演员": "主演：$$</div>",
+"播放页剧情": "剧情：$$</div>",
+
+"播放页二次截取": "空",
+"播放页截取数组": "class=\"scroll-content$$</div>",
+"播放剧集自动分割模式": "0",
+"播放剧集数组分割字符": "空",//json数据播放链接都集合在一起时才用到，不用时填空或者不填或者删除这个字段
+"播放剧集二次截取": "空",
+"播放剧集截取数组": "<a$$</a>",
+"播放剧集标题": "<span>$$</span>",
+"播放剧集链接": "href=\"$$\"",
+"播放剧集链接前缀": "空",
+"播放剧集链接后缀": "空"},
+
+{"网站名字": "酷云影视",
+"网站地址": "https://sc1080.top",
+"访问请求ua": "Mozilla/5.0 (linux; u; android11; zh-cn; v1816a build/pkq1.180819.001) applewebkit/537.36 (khtml, like gecko) version/4.0 chrome/57.0.2987.108 quark/4.2.1.138 mobile safari/537.36",
+"访问请求cookie": "空",
+"访问请求referer": "",
+"播放请求头": "User-Agent$123",
+"图片请求头": "空",
+"网页编码": "utf-8",
+
+"嗅探词": "m3u8?#.m3u8#.mp4#.flv#.mp3#.m4a",
+"过滤词": "51.la#cnzz.com#baidu.com#bilibili.com",
+
+"列表起始页": "1",
+"列表分类": "电视剧$/index.php/vod/show/id/2/page/#电影$/index.php/vod/show/id/1/page/#动漫$/index.php/vod/show/id/4/page/#综艺$/vodshow/id/3/page/",
+"列表后缀": ".html",
+
+"列表二次截取": "class=\"module-items$$id=\"page",
+"列表截取数组": "class=\"module-item-pic$$</div>",
+"列表图片前缀": "空",
+"列表图片": "data-src=\"$$\"",
+"列表标题": "title=\"$$\"",
+"列表副标题": "",
+"列表链接": "href=\"$$\"",
+"列表链接前缀": "",
+"列表链接后缀": "",
+
+//0：get方式，1：post方式，注意：如果用post方式，【搜索模式】要填：1
+"搜索请求方式": "0",
+"搜索模式": "1",
+"搜索前": "/index.php/vod/search.html?wd=",
+"搜索后": "",
+"搜索连接后缀": "/index.php/vod/detail/id/",
+"搜索带翻页模式": "https://tv.xmb.app/index.php/vod/search/page/翻页/wd/搜索词.html",
+"搜索二次截取": "空",
+"搜索截取数组": "<div class=\"module-search-item\">$$<div class=\"video-info-aux\">",
+"搜索图片前缀": "空",
+"搜索图片": "data-src=\"$$\"",
+"搜索标题": "title=\"立刻播放$$\"",
+"搜索副标题": "<div class=\"video-info-header\">$$</a>",
+"搜索链接": "class=\"video-serial\" href=\"$$\"",
+"搜索链接前缀": "空",
+"搜索链接后缀": "空",
+
+//0：不启用，1：启用
+"启用线路名": "1",                                           
+"线路名二次截取": "",
+"线路名截取数组": "class=\"module-tab-item tab-item$$</div>",
+"线路名标题": "<span>$$</span>",
+"线路名数组分割字符": "空",//json数据才用到，不用时填空或者不填或者删除这个字段
+
+"播放页状态": "集数：$$</div>",
+"播放页导演": "导演：$$</div>",
+"播放页演员": "主演：$$</div>",
+"播放页剧情": "<p>$$</p>",
+
+"播放页二次截取": "空",
+"播放页截取数组": "class=\"scroll-content$$</div>",
+"播放剧集自动分割模式": "0",
+"播放剧集数组分割字符": "空",//json数据播放链接都集合在一起时才用到，不用时填空或者不填或者删除这个字段
+"播放剧集二次截取": "空",
+"播放剧集截取数组": "<a$$</a>",
+"播放剧集标题": "<span>$$</span>",
+"播放剧集链接": "href=\"$$\"",
+"播放剧集链接前缀": "空",
+"播放剧集链接后缀": "空"},
+
+{"网站名字": "奇异影视",
+"网站地址": "https://www.777111.xyz",
+"访问请求ua": "Mozilla/5.0 (linux; u; android11; zh-cn; v1816a build/pkq1.180819.001) applewebkit/537.36 (khtml, like gecko) version/4.0 chrome/57.0.2987.108 quark/4.2.1.138 mobile safari/537.36",
+"访问请求cookie": "空",
+"访问请求referer": "",
+"播放请求头": "User-Agent$123",
+"图片请求头": "空",
+"网页编码": "utf-8",
+
+"嗅探词": "m3u8?#.m3u8#.mp4#.flv#.mp3#.m4a",
+"过滤词": "51.la#cnzz.com#baidu.com#bilibili.com",
+
+"列表起始页": "1",
+"列表分类": "电视剧$/index.php/vod/show/id/2/page/#电影$/index.php/vod/show/id/1/page/#动漫$/index.php/vod/show/id/4/page/#短剧$/vodshow/id/5/page/",
+"列表后缀": ".html",
+
+"列表二次截取": "class=\"module-items$$id=\"page",
+"列表截取数组": "<a$$</a>",
+"列表图片前缀": "空",
+"列表图片": "data-original=\"$$\"",
+"列表标题": "title=\"$$\"",
+"列表副标题": "<div class=\"module-item-note\">$$</div>",
+"列表链接": "href=\"$$\"",
+"列表链接前缀": "",
+"列表链接后缀": "",
+
+//0：get方式，1：post方式，注意：如果用post方式，【搜索模式】要填：1
+"搜索请求方式": "0",
+"搜索模式": "1",
+"搜索前": "/index.php/vod/search.html?wd=",
+"搜索后": "",
+"搜索连接后缀": "/index.php/vod/detail/id/",
+"搜索带翻页模式": "https://tv.xmb.app/index.php/vod/search/page/翻页/wd/搜索词.html",
+"搜索二次截取": "空",
+"搜索截取数组": "class=\"module-card-item-class$$</a>",
+"搜索图片前缀": "空",
+"搜索图片": "data-original=\"$$\"",
+"搜索标题": "alt=\"$$\"",
+"搜索副标题": "<div class=\"module-item-note\">$$</div>",
+"搜索链接": "href=\"$$\"",
+"搜索链接前缀": "空",
+"搜索链接后缀": "空",
+
+//0：不启用，1：启用
+"启用线路名": "1",                                           
+"线路名二次截取": "",
+"线路名截取数组": "class=\"module-tab-item tab-item$$</div>",
+"线路名标题": "<span>$$</span>",
+"线路名数组分割字符": "空",//json数据才用到，不用时填空或者不填或者删除这个字段
+
+"播放页状态": "集数：$$</div>",
+"播放页导演": "导演：$$</div>",
+"播放页演员": "主演：$$</div>",
+"播放页剧情": "<p>$$</p>",
+
+"播放页二次截取": "空",
+"播放页截取数组": "class=\"module-play-list$$</div>",
+"播放剧集自动分割模式": "0",
+"播放剧集数组分割字符": "空",//json数据播放链接都集合在一起时才用到，不用时填空或者不填或者删除这个字段
+"播放剧集二次截取": "空",
+"播放剧集截取数组": "<a$$</a>",
+"播放剧集标题": "<span>$$</span>",
+"播放剧集链接": "href=\"$$\"",
+"播放剧集链接前缀": "空",
+"播放剧集链接后缀": "空"},
+
+{"网站名字": "子子影视",
+"网站地址": "https://www.ziziys.com",
+"访问请求ua": "Mozilla/5.0 (linux; u; android11; zh-cn; v1816a build/pkq1.180819.001) applewebkit/537.36 (khtml, like gecko) version/4.0 chrome/57.0.2987.108 quark/4.2.1.138 mobile safari/537.36",
+"访问请求cookie": "空",
+"访问请求referer": "",
+"播放请求头": "User-Agent$123",
+
+"嗅探词": "m3u8?#.m3u8#.mp4#.flv#.mp3#.m4a",
+"过滤词": "51.la#cnzz.com#baidu.com#bilibili.com",
+
+"列表起始页": "1",
+"列表分类": "国产剧剧$/list/13-#恐怖电影$/list/24-#国漫$/list/20-",
+"列表后缀": ".html",
+
+"列表二次截取": "class=\"module-items$$class=\"module-footer",
+"列表截取数组": "class=\"module-item-pic$$</div>",
+"列表图片前缀": "空",
+"列表图片": "data-src=\"$$\"",
+"列表标题": "alt=\"$$\"",
+"列表副标题": "",
+"列表链接": "href=\"$$\"",
+"列表链接前缀": "",
+"列表链接后缀": "",
+
+//0：get方式，1：post方式，注意：如果用post方式，【搜索模式】要填：1
+"搜索请求方式": "0",
+"搜索模式": "1",
+"搜索前": "/vsearch/--.html?wd=",
+"搜索后": "",
+"搜索连接后缀": "/vdetail/",
+"搜索带翻页模式": "https://www.ziziys.com/vsearch/搜索词--翻页.html",
+"搜索二次截取": "空",
+"搜索截取数组": "class=\"video-info$$class=\"loading",
+"搜索图片前缀": "空",
+"搜索图片": "data-src=\"$$\"",
+"搜索标题": "title=\"$$\"",
+"搜索副标题": "<div class=\"video-info-header\">$$<h3>",
+"搜索链接": "href=\"$$\"",
+"搜索链接前缀": "空",
+"搜索链接后缀": "空",
+
+//0：不启用，1：启用
+"启用线路名": "1",                                           
+"线路名二次截取": "",
+"线路名截取数组": "class=\"module-tab-item tab-item$$</div>",
+"线路名标题": "<span>$$</span>",
+"线路名数组分割字符": "空",//json数据才用到，不用时填空或者不填或者删除这个字段
+
+"播放页状态": "集数：$$</div>",
+"播放页导演": "导演：$$</div>",
+"播放页演员": "主演：$$</div>",
+"播放页剧情": "<p>$$</p>",
+
+"播放页二次截取": "空",
+"播放页截取数组": "class=\"scroll-content$$</div>",
+"播放剧集自动分割模式": "0",
+"播放剧集数组分割字符": "空",//json数据播放链接都集合在一起时才用到，不用时填空或者不填或者删除这个字段
+"播放剧集二次截取": "空",
+"播放剧集截取数组": "<a$$</a>",
+"播放剧集标题": "<span>$$</span>",
+"播放剧集链接": "href=\"$$\"",
+"播放剧集链接前缀": "空",
+"播放剧集链接后缀": "空"}
 ]
 }
